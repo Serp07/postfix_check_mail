@@ -1,2 +1,2 @@
-# postfix_chek_mail
-postfix_chek_mail
+# postfix_check_mail
+postfix_check_mail
