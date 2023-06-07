@@ -13,7 +13,7 @@ if [ "$c" -gt 0 ]; then
         --data parse_mode=HTML \
         --data chat_id=$telegram_chat_id \
         --data text="NEW LETTER <b>$email@EXAMPLE.COM</b> - <b>$c.</b>" \
-        --request POST https://api.telegram.org/bot$telegram_bot_token/sendMessage 2>&1 > /dev/null
+        --request POST https://api.telegram.org/bot$telegram_bot_token/sendMessage > /dev/null; 2>&1 
 fi
 done
 
